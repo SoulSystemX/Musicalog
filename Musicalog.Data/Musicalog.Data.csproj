@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Musicalog.Data</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Dapper" Version="2.1.28"/>
+        <PackageReference Include="dbup" Version="5.0.40"/>
+        <PackageReference Include="FluentMigrator" Version="5.0.0"/>
+        <PackageReference Include="FluentMigrator.Runner" Version="5.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="Context\"/>
+    </ItemGroup>
+
+</Project>
